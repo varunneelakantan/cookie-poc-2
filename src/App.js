@@ -6,7 +6,7 @@ import Cookies from 'universal-cookie';
 function App() {
   useEffect(() => {
     const cookies = new Cookies();
-    cookies.set("domain2", "HelloDomain2", { path: "/", domain: ".azurestaticapps.net" });
+    cookies.set("domain2", "HelloDomain2", { path: "/", domain:"orange-wave-0c71bbc10.3.azurestaticapps.net"});
     console.log(cookies.get("myCat"));
   }, []);
   return (
